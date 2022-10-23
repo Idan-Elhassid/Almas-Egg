@@ -1,0 +1,9 @@
+{% extends "mainsite/base.html" %}
+ {% load static %}
+
+    {% block content %}
+        <img class="book_image" src="{% static 'mainsite/images/home.PNG' %}">
+        <a href="http://127.0.0.1:8000/1">
+            <button type="button" class="btn btn-primary btn-lg"> לעמוד הבא </button>
+        </a>
+    {% endblock %}

@@ -1,0 +1,67 @@
+
+    #title {
+        background-color: #C3F8FF;
+    }
+
+    .sidenav {
+        text-align: center;
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: :hidden;
+        padding-top: 10px;
+    }
+
+    .sidenav a {
+        padding: 4px 6px 4px 10px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    }
+
+    .sidenav a:hover{
+        color: #f1f1f1;
+    }
+
+    .book_image {
+        width: 820px;
+        height: 510px;
+        margin: 20px 50px 10px 240px;
+        position: relative;
+    }
+
+    .col-lg-6 {
+            text-align: center;
+    }
+
+    .btn-primary {
+        border-color: #81C6E8;
+        background-color: #5DA7DB;
+        text-align: center;
+        display: inline;
+        margin: 1% 1% 5% 4%;
+    }
+    .btn-secondary {
+        text-align: center;
+        display: inline;
+        margin: 1% 1% 5% 35%;
+    }
+    .btn-danger {
+        border-color: #E78EA9 !important;
+        background-color: #FFA1CF;
+        text-align: center;
+        display: inline;
+        margin: 1% 1% 5% 1%;
+    }
+    .btn-danger:hover {
+        border-color: #E78EA9 !important;
+        background-color: #FF74B1 !important;
+    }
+
+
+

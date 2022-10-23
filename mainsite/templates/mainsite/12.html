@@ -1,0 +1,27 @@
+{% extends "mainsite/base.html" %}
+ {% load static %}
+
+    {% block content %}
+        <img class="book_image" src="{% static 'mainsite/images/12.PNG' %}">
+         <button onclick="PlayAudio()" type="button" class="btn btn-secondary btn-lg"> 🧑🔊🎵 </button>
+            <audio id="12" src ="{% static 'mainsite/voice/male_sound_12.mp3' %}"></audio>
+            <script>
+                var x = document.getElementById("12");
+
+                function PlayAudio() {
+                    x.play();
+                }
+            </script>
+            <button type="button" onclick="PlayA()" class="btn btn-danger btn-lg"> 👧🔊🎵 </button>
+                <audio id="12f" src ="{% static 'mainsite/voice/female_sound_12.mp3' %}"></audio>
+                <script>
+                    var y = document.getElementById("12f");
+
+                    function PlayA() {
+                        y.play();
+                    }
+                </script>
+        <a href="home">
+        <button type="submit" class="btn btn-primary btn-lg"> לעמוד הבא </button>
+        </a>
+    {% endblock %}
